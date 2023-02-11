@@ -49,7 +49,7 @@
   }
   
   #menu a:hover {      
-    color: lightgreen;    
+    color: yellow; <!-- canvi de color -->    
   }
   
   main{
@@ -99,7 +99,7 @@
   footer > p {
     font-size: 1.2em;
     margin-top: 50px;
-    padding: 30px;
+    padding: 31px;  <!-- Efectuem un canvi al padding -->
     clear: both;
   }
 
