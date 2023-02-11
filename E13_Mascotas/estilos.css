@@ -6,9 +6,9 @@
   }
   
   body {
-    background-color: pink;  <!-- Canvi de color -->
+    background-color: gray;  <!-- Canvi de color -->
   }
-  
+ 
   #container {    
     width: 80%;
     min-width: 600px;
