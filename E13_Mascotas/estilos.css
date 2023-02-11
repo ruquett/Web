@@ -1,0 +1,105 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: gray;
+  }
+  
+  #container {    
+    width: 80%;
+    min-width: 600px;
+    max-width: 1400px;
+    margin: 0 auto;  
+    background-color: #ddd;
+  }
+  
+  header {
+    padding: 30px 20px;
+    background-color: #103610;
+    color:white;
+    overflow: auto;
+  }
+  
+  header h1 {
+    float:left;  
+  }
+  
+  nav {
+    float:right; 
+    margin-top: 30px; 
+  }
+  
+  #menu li {
+    display: inline; 
+    border-left: 1px solid white;           
+  }
+  
+  #menu li:first-child{
+    border: none;
+  }
+  
+  #menu a {
+    padding: 5px 20px;        
+    color: white;
+    text-decoration: none;           
+  }
+  
+  #menu a:hover {      
+    color: lightgreen;    
+  }
+  
+  main{
+    overflow:auto;
+    background-color:white;
+  }
+  
+  article {
+    float:left;
+    width:50%;
+    padding: 10px;
+  }
+  
+  article img{
+    float:left;
+    width: 100px;
+  }
+  
+  article .info{
+    float:right;
+    width: calc(100% - 100px);
+    padding: 0px 5px;
+  }
+  
+  footer {
+    background-color: #103610;
+    color:white;  
+    padding: 30px; 
+    text-align:center;   
+  }
+  
+  .colaborador {
+    float:left;
+    width: 33.3333%;
+    border-left: 1px solid white;
+  }
+  
+  .colaborador:first-child{
+    border:none;
+  }
+  
+  .colaborador img{
+    border: 6px solid #8aad8a;
+    border-radius: 50%;
+  }
+  
+  footer > p {
+    font-size: 1.2em;
+    margin-top: 50px;
+    padding: 30px;
+    clear: both;
+  }
+
